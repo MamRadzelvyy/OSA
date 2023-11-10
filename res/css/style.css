@@ -1,3 +1,7 @@
+*{user-select: none;
+
+}
+
 #startButton {
   color: white;
   background-color: black;
@@ -32,6 +36,8 @@
 #startButton:hover {
   background-color: chartreuse;
   filter: blur(0.5px);
+  box-shadow: 0 0 50px rgb(53, 185, 51);
+
 }
 #point:hover {
   box-shadow: 0 0 50px rgba(65, 128, 201);
@@ -54,9 +60,15 @@ body {
     #5ffbf1
   );
   height: 100vh;
+  overflow: hidden;
 }
 #menu {
   display: flex;
   justify-content: center;
   margin-top: 2em;
+}
+
+#showTime{
+font-size: larger;
+color: white;
 }
